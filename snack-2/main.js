@@ -1,9 +1,9 @@
 /* L’utente inserisce due parole in successione, con due prompt.
 Il software stampa prima la parola più corta, poi la parola più lunga. */
 
-const firstChoise = Text(prompt("Scrivi una parola"));
+const firstChoise = prompt("Scrivi una parola");
 
-const secondChoise = Text(prompt("Scrivi un'altra parola"));
+const secondChoise = prompt("Scrivi un'altra parola");
 
 console.log(firstChoise, secondChoise);
 
