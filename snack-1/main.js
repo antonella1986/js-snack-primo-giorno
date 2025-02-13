@@ -2,10 +2,10 @@
 Il software stampa il maggiore. */
 
 const firstChoise = prompt ("Inserisci un numero");
-console.log(firstChoise);
 
 const secondChoise = prompt ("Inserisci un altro numero");
-console.log(secondChoise);
+
+console.log(firstChoise, secondChoise);
 
 if (firstChoise < secondChoise) {
     console.log(secondChoise);
