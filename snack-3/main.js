@@ -3,8 +3,8 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 
 for (let i = 0; i <= 10; i++) {
-    let Number = prompt("Inserisci un numero");
-    sum = Number
+    let userChoise = Number(prompt("Inserisci un numero"));
+
 }
 
 console.log();
