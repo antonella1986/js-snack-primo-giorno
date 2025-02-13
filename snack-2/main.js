@@ -9,10 +9,10 @@ console.log(firstChoise, secondChoise);
 
 
 if (firstChoise < secondChoise) {
-    console.log(firstChoise);
+    console.log(firstChoise, secondChoise);
     
 } else if (secondChoise < firstChoise) {
-    console.log(secondChoise);
+    console.log(secondChoise, firstChoise);
 } else {
     console.log("The length is equal");
 }
