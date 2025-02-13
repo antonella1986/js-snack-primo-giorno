@@ -12,4 +12,6 @@ if (firstChoise < secondChoise) {
     
 } else if (secondChoise < firstChoise) {
     console.log(firstChoise);
+} else {
+    console.log("The numbers are equal");
 }
